@@ -1,0 +1,512 @@
+q19 <- subset(quiz1_data, Month == 6)
+q19
+mean(q19$Temp)
+q20 <- subset(quiz1_data, Month == 5)
+q20
+max(q20$Temp)
+max(q20$Ozone)
+max(q20$Ozone)
+x - c(1,3,5)
+x <- c(1,3,5)
+y <- c(3,2,10)
+xy <- cbind(x,y)
+class(xy)
+dim(xy)
+xy
+x <- c(2, "a", "b", TRUE)
+x[[2]]
+x <- c(3,5,1,10,12,6)
+x[x<6] <- 0
+x
+x <- 4L
+class(x)
+x <- c(4,TRUE)
+class(x)
+x <- c(1,3,5)
+y <- c(3,2,10)
+xy <- rbind(x,y)
+class(xy)
+dim(xy)
+x <- c(2, "a", "b", TRUE)
+quiz1_data[quiz1_data$Ozone > 31]
+quiz1_data[,1 > 31]
+quiz1_data$Ozone
+quiz1_data[quiz1_data$Ozone > 31,]
+quiz1_data[quiz1_data$Ozone > 31 & quiz1_data$Temp > 90,]
+setwd(old.dir)
+getwd()
+library("swirl")
+swrirl()
+swirl()
+0
+quit
+quit()
+getwd()
+0
+y
+x
+for(letter in x) print(letter)
+source('~/R/Projects/Coursera_R_Programming/Week2/for.R')
+?rbinom
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+source('~/R/Projects/Coursera_R_Programming/Week2/while.R')
+library("swirl")
+swirl()
+main()
+info()
+bye()
+swirl()
+0
+0
+my_vector <- 1:20
+my_vector
+dim(my_vector)
+length(my_vector)
+dim(my_vector) <- c(4, 5)
+dim(my_vector)
+attributes(my_vector)
+my_vector
+class(my_vector)
+my_matrix <- my_vector
+?matrix
+my_matrix2 <- matrix(1:20, 4, 5)
+identical(my_matrix, my_matrix2)
+patients <- c("Bill", "Gina", "Kelly", "Sean")
+cbind(patients, my_matrix)
+my_data <- data.frame(patients, my_matrix)
+my_data
+class(my_data)
+cnames <- c("patient", "age", "weight", "bp", "rating", "test")
+colnames(my_data) <- cnames
+my_data
+TRUE == TRUE
+(FALSE == TRUE) == FALSE
+6 == 7
+6 < 7
+10 <= 10
+5 != 7
+5 !== 7
+5 != 7
+!5 == 7
+FALSE & FALSE
+TRUE & c(TRUE, FALSE, FALSE)
+TRUE && c(TRUE, FALSE, FALSE)
+TRUE | c(TRUE, FALSE, FALSE)
+TRUE || c(TRUE, FALSE, FALSE)
+5 > 8 || 6 != 8 && 4 > 3.9
+isTRUE(6 > 4)
+identical('twins', 'twins')
+xor(5 == 6, !FALSE)
+ints <- sample(10)
+ints
+ints > 5
+which(ints > 7)
+any(ints < 0)
+all(ints > 0)
+print(R.version.string)
+source('~/R/Projects/Coursera_R_Programming/Week2/add2.R')
+add2 <- function(x, y){
+x + y
+}
+add2(3, 5)
+above <- function(x, n){
+use <- x > n
+x[use]
+}
+above(x, 10)
+above(x, 100)
+above(x, 1000)
+x <- 1:20
+above(x, 10)
+source('~/R/Projects/Coursera_R_Programming/Week2/add2.R')
+columnmean <- function(y){
+nc <- ncol(y)
+means <- numeric(nc)
+for (i in 1:nc) {
+means[i] <- mean(y[, i])
+}
+means
+}
+columnmean(airquality)
+columnmean <- function(y, removeNA = TRUE){
+nc <- ncol(y)
+means <- numeric(nc)
+for (i in 1:nc) {
+means[i] <- mean(y[, i], na.rm = removeNA)
+}
+means
+}
+columnmean(airquality)
+?na.rm
+?rm.na
+?na
+?na
+??na
+?mean
+swirl()
+Sys.Date()
+mean(c(2, 4, 5))
+submit()
+boring_function('My first function!')
+boring_function
+submit()
+my_mean(c(4,5,10))
+submit()
+remainder(5)
+remainder(11, 5)
+remainder(divisor = 11, num = 5)
+remainder(4, div = 2)
+args(remainder)
+submit()
+evaluate(sd, c(1.4, 3.6, 7.9, 8.8))
+evaluate(function(x){x+1}, 6)
+evaluate(function(x){x[1]}, c(8, 4, 0))
+evaluate(function(x){x[3]}, c(8, 4, 0))
+evaluate(function(x){x[length(x)]}, c(8, 4, 0))
+?paste
+paste("Programming", "is", "fun!")
+submit()
+telegram("Send", "lawyers,", "guns,", "and", "money")
+submit()
+mad_libs("Ohio", "beef-witted", "Yugo")
+submit
+submit()
+"I love" %p% "R"
+"I love" %p% "R!"
+"I" %p% "love" %p% "R!"
+formals(sd)
+args(sd)
+length(args(sd))
+plot(cars)
+getwd()
+setwd("Week2")
+getwd()
+station1 <- read.csv("rprog_data_specdata/specdata/001.csv")
+head(station1)
+mean(station1$sulfate, na.rm = TRUE)
+id <- c(001)
+pollutant <- "sulfate"
+pollutant
+paste("station1", pollutant, sep = "$")
+meanx <- paste("station1", pollutant, sep = "$")
+mean(meanx, na.rm = TRUE)
+mean(station1[[pollutant]], na.rm = TRUE)
+num1 <- 1
+num2 <- 001
+identical(num1, num2)
+num1
+num2
+id <- 1:100
+id
+?format
+format(1, digits = 3)
+format(id, digits = 3)
+format(id, digits = 3, trim = FALSE)
+format(id, digits = 3, trim = TRUE)
+format(id, ldigits = 3)
+as.character(format(id, ldigits = 3))
+format(id, width = 3)
+?sprintf
+id
+print(format(id[1], width = 3))
+formatC(id, width = 3, flag = "0")
+paste(formatC(id, width = 3, flag = "0"), ".csv")
+paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+setwd("C:/Users")
+getwd()
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+getwd()
+setwd("C:/Users/giffin/Documents/R/Projects/Coursera_R_Programming/Week2/rprog_data_specdata")
+getwd()
+pollutantmean <- function(directory, pollutant, id = 1:332){
+#directory is a character vector of length 1 indicating
+# the location of the csv files
+# 'pollutant' is a character vector of length 1 indicating
+# the name of the pollutant for which we will calculate
+# the mean; either 'sulfate' or 'nitrate'
+# 'id' is the integer vector indicating the monitor id
+# numbers to be used
+# Return the mean of the pollutant across all monitors list
+# in the 'id' vector (remove NA values)
+# NOTE! Do not round the result
+# set directory
+setwd("C:/Users/giffin/Documents/R/Projects/Coursera_R_Programming/Week2/rprog_data_specdata")
+# read files into df
+# file name indicates monitor ID
+filenames <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+# Data files contain 4 columns: "Date","sulfate","nitrate","ID"
+# calculate mean of 'pollutant'; set na.rm = TRUE
+# can use variable substitution with the extract operator
+mean(scandatatable[[pollutant]], na.rm = TRUE)
+}
+pollutantmean(scandata, sulfate, 1)
+filenames
+# set directory
+setwd(paste("C:/Users/giffin/Documents/R/Projects/Coursera_R_Programming/Week2/rprog_data_specdata/", directory, sep = ""))
+print(getwd())
+directory <- specdata
+directory <- "specdata"
+paste("C:/Users/giffin/Documents/R/Projects/Coursera_R_Programming/Week2/rprog_data_specdata/", directory, sep = "")
+pollutantmean(specdata, sulfate, 1)
+setwd(paste("C:/Users/giffin/Documents/R/Projects/Coursera_R_Programming/Week2/rprog_data_specdata/", directory, sep = ""))
+getwd()
+ls()
+dir()
+id
+id <- 1
+filenames <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+filenames
+print(filenames)
+scandatatable <- read.csv(filenames)
+scandatatable
+mean(scandatatable[[pollutant]], na.rm = TRUE)
+# read files into df
+# file name indicates monitor ID
+filenames <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+pollutantmean(scandata, sulfate, 1)
+id <- 1:10
+filenames <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+filenames
+scandata <- lapply(filenames, read.csv)
+getwd()
+setwd(paste("C:/Users/giffin/Documents/R/Projects/Coursera_R_Programming/Week2/rprog_data_specdata/", directory, sep = ""))
+scandata <- lapply(filenames, read.csv)
+scandata
+rm(list = ls())
+# Data files contain 4 columns: "Date","sulfate","nitrate","ID"
+scandatatable <- lapply(filenames, read.csv)
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+pollutantmean(specdata, sulfate, 1:10)
+getwd()
+pollutantmean("specdata", "sulfate", 1:10)
+rm(list = ls())
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+pollutantmean(id = 1:10)
+rm(list = ls())
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+pollutantmean(id = 1:10)
+rm(list = ls())
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+pollutantmean(id = 1:10)
+?head
+pollutantmean(id = 1)
+rm(list = ls())
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+pollutantmean(id = 1)
+id <- 1:10
+files <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+dtable <- lapply(files, read.csv)
+pollutant <- "sulfate"
+mean(dtable[[pollutant]], na.rm = TRUE)
+?read.csv
+rm(dtable)
+dtable <- lapply(files, read.csv, skip = 1, col.names = c("Date","sulfate","nitrate","ID"))
+dtable
+rm(dtable)
+dtable <- lapply(files[1:2], read.csv, skip = 1, col.names = c("Date","sulfate","nitrate","ID"))
+dtable
+rm(dtable)
+dtable <- lapply(files[1:2], read.csv, skip = 1)
+dtable
+rm(dtable)
+dtable <- lapply(files[1:2], read.csv, skip = 1, col.names = c("Date","sulfate","nitrate","ID"))
+class(dtable)
+rm(dtable)
+dtable <- lapply(files[1:2], read.csv, skip = 1)
+dataframe <- do.call(rbind,lapply(files[1:2], read.csv))
+dataframe
+mean(dataframe[[pollutant]], na.rm = TRUE)
+rm(list = ls())
+source('~/R/Projects/Coursera_R_Programming/Week2/pollutantmean.R', echo=TRUE)
+pollutantmean(id = 1)
+pollutantmean(id = 1:2)
+pollutantmean(id = 1:10)
+pollutantmean(pollutant = "nitrate", id = 70:72)
+pollutantmean(pollutant = "nitrate")
+pollutantmean()
+?rbind
+?complete.cases
+table1 <- read.csv("001.csv")
+complete.cases(table1)
+sum(complete.cases(table1))
+id <- 1:4
+files <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+rm(files)
+id <- c(10, 2, 1)
+paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+files <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+complete_counts <- lapply(files, sum(complete.cases))
+complete_counts <- lapply(files, complete.cases)
+head(complete_counts, n = 10)
+sum(complete_counts)
+complete_counts
+lapply(files, complete.cases)
+?lapply
+complete_counts <- lapply(files, function(x) sum(complete.cases(x)))
+rm complete_counts
+rm(complete_counts)
+complete_counts <- lapply(files, function(x) sum(complete.cases(x)))
+summary(complete_counts)
+complete_counts
+for (i in files) {
+sum(complete.cases(i))
+# print("")
+}
+for (i in files) {
+x <- sum(complete.cases(i))
+# print("")
+}
+for (i in files) {
+x <- sum(complete.cases(i))
+print(x)
+}
+for (i in files) {
+x <- read.csv(i)
+y <- sum(complete.cases(x))
+print(y)
+}
+for (i in id) {
+f <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+print(id, y)
+}
+for (i in id) {
+f <- paste(formatC(id, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+print(i, y)
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+print(i, y)
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+print(y)
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+print(i)
+}
+?print
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+z <- c(i, y)
+print(z)
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+# z <- c(i, y)
+paste(i, y)
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+# z <- c(i, y)
+print(paste(i, y))
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+# z <- c(i, y)
+print(paste(i, y), sep = ", ")
+}
+for (i in id) {
+f <- paste(formatC(i, width = 3, flag = "0"), ".csv", sep = "")
+x <- read.csv(f)
+y <- sum(complete.cases(x))
+# z <- c(i, y)
+print(paste(i, y, sep = ", "))
+}
+source('~/R/Projects/Coursera_R_Programming/Week2/complete.R', echo=TRUE)
+complete(id = 1:2)
+complete(id = 4:1)
+complete(id = c(10, 12, 3, 5))
+complete()
+source('~/R/Projects/Coursera_R_Programming/Week2/complete.R', echo=TRUE)
+complete(id = c(10, 12, 3, 5))
+?data.frame
+complete(id = c(10, 8, 9, 7))
+dat <- data.frame(col.names = c("ID", "NOBS"))
+dat
+dat <- data.frame("id", "nobs")
+dat
+dat <- rbind(z)
+dat
+dat <- data.frame(ncol = 2, nrow = 0)
+x <- c("id", "nobs")
+colnames(dat) <- x
+dat
+dat <- rbind(dat, z)
+dat
+dat
+dat <- data.frame()
+colnames(dat) <- x
+x
+dat
+dat <- data.frame(id=numeric, nobs=numeric())
+dat <- data.frame(id=numeric, nobs=numeric)
+dat <- data.frame(id, nobs)
+rm(dat)
+dat
+dat <- data.frame(id = NA, nobs = NA)
+dat
+dat <- rbind(dat, z)
+dat
+rm(dat)
+dat <- data.frame(id = NA, nobs = NA)[-1]
+dat
+rm(dat)
+dat <- data.frame(id = NA, nobs = NA)[-1,]
+dat
+dat <- rbind(dat, z)
+dat
+rm(dat)
+dat <- data.frame()
+dat <- rbind(dat, z)
+dat
+colnames(dat) <- x
+dat
+source('~/R/Projects/Coursera_R_Programming/Week2/complete.R', echo=TRUE)
+complete(id = c(10, 8, 9, 7))
+dat
+histogram(dat)
+hist(dat)
+?hist
+?plot
+dat
+plot(dat)
+source('~/R/Projects/Coursera_R_Programming/Week2/complete.R', echo=TRUE)
+complete()
+install.packages("languageserver")
+install.packages(c("ade4", "backports", "BH", "callr", "cli", "clipr", "colorspace", "covr", "crayon", "crosstalk", "desc", "devtools", "digest", "DT", "ellipsis", "EpiEstim", "fansi", "farver", "fastmap", "fs", "ggplot2", "gh", "git2r", "glue", "htmltools", "htmlwidgets", "httpuv", "httr", "isoband", "jsonlite", "KernSmooth", "knitr", "labeling", "later", "lifecycle", "magrittr", "memoise", "mime", "openssl", "pillar", "pixmap", "pkgbuild", "pkgload", "processx", "promises", "ps", "R6", "Rcpp", "rematch2", "remotes", "rlang", "rmarkdown", "roxygen2", "rprojroot", "rstudioapi", "rversions", "scales", "segmented", "seqinr", "shiny", "sp", "sys", "tibble", "tinytex", "usethis", "vctrs", "withr", "xfun", "xml2"))
+install.packages(c("aweek", "boot", "class", "cluster", "coda", "codetools", "dplyr", "EpiEstim", "fitdistrplus", "incidence", "KernSmooth", "lsei", "MASS", "Matrix", "MatrixModels", "MCMCpack", "mgcv", "nlme", "nnet", "npsurv", "pubmed.mineR", "quantreg", "RCurl", "RISmed", "SparseM", "spatial", "stringi", "survival", "testthat", "tidyr", "tidyselect"), lib="C:/Users/giffin/Documents/R/R-3.6.3/library")

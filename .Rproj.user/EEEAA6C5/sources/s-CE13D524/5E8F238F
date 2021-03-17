@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1615417300700.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5E8F238F",
+    "lastKnownWriteTime" : 1615596675,
+    "last_content_update" : 1615596675527,
+    "path" : "~/R/Projects/Coursera_R_Programming/Week2/PracticeAssignment.rmd",
+    "project_path" : "Week2/PracticeAssignment.rmd",
+    "properties" : {
+        "cursorPosition" : "305,181",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

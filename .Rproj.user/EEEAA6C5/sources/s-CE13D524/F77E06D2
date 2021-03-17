@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1615239950424.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F77E06D2",
+    "lastKnownWriteTime" : 1615240125,
+    "last_content_update" : 1615240125629,
+    "path" : "~/R/Projects/Coursera_R_Programming/Week2/for.R",
+    "project_path" : "Week2/for.R",
+    "properties" : {
+        "cursorPosition" : "14,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
